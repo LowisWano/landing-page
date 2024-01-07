@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'roboto';
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header h2{
+    font-size: 24px;
+    color: #f9faf8;
+}
