@@ -4,37 +4,128 @@
     font-family: 'roboto';
 }
 
+.container-1, .container-2,  /* padding for entire web page*/
+.container-3, .container-4, 
+.footer{ 
+    padding: 0px 100px;
+}
+
 .container-1{
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    
 }
 .header{
     background-color: #1f2937;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
-.header h2{
+.header h2{ /* Header logo */
     font-size: 24px;
     color: #f9faf8;
 }
 
-ul{
+ul{ /* links */
     list-style: none;
     display: flex;
     color: white;
     gap: 32px;
 }
-.c1-content-img{
+.c1-content-img{ /* container-1 image */
     height: 300px;
     width: 700px;
     border: 1px solid grey;
+    background-color: rgb(130, 131, 133);
+}
+
+.c1-content{
+    display:flex;
+    justify-content: space-between;
+    margin: 210px 0px 120px 0px;
+}
+
+
+.c1-content-container-1 h1{ /* This website is awesome header*/
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.c1-content-container-1 p{ /* Website is awesome subtext */
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 16px 48px 32px 0px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 145px 0px 160px 0px;
+}
+
+.container-2 h2{ /* Information Header text */
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .c2-img-container{
+    margin: 40px;
     display: flex;
+    gap: 64px;
 }
 .c2-img{
     height: 200px;
     width: 200px;
     border: 1px solid grey;
+    text-align: center;
+}
+
+.container-3{
+    background-color: #E5E7EB;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote-text{ /* Quote Text*/
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+    width: 820px;
+    
+    
+}
+
+.thor{
+    font-weight: bold;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    font-size: 18px;
+}
+
+.c3-container{
+    display: flex;
+    flex-direction: column;
 }
