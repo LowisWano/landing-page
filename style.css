@@ -24,8 +24,17 @@ ul{
     color: white;
     gap: 32px;
 }
-.c1-content-1-img{
+.c1-content-img{
     height: 300px;
     width: 700px;
+    border: 1px solid grey;
+}
+
+.c2-img-container{
+    display: flex;
+}
+.c2-img{
+    height: 200px;
+    width: 200px;
     border: 1px solid grey;
 }
